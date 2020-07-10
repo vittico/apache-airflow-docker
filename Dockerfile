@@ -6,7 +6,7 @@ RUN apk update && apk add bash \
 		build-dependencies \
 		build-base \
 		gcc wget git curl \
-		libffi libffi-dev cython \
+		libffi libffi-dev cython cython-dev \
 		py3-cffi freetds freetds-dev \
 		krb5-libs krb5-dev libsasl \
 		libpq openssl-dev mysql-dev postgresql-dev \
